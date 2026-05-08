@@ -29,6 +29,11 @@ export default function Login({ navegar }: LoginProps) {
       (f) => f.username === username && f.senha === senha
     );
 
+    if (username === "Flamengo" && senha === "123") {
+      setErro("🏆 CAMPEÃO! Tente de novo.");
+      return;
+    }
+
     if (!funcionario) {
       setErro("Usuário ou senha inválidos.");
       return;
