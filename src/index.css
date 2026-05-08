@@ -1,0 +1,54 @@
+/* =============================== index.css ================================ 
+Estilos globais básicos
+Reset básico e variáveis de cores e fontes
+Fundo             | `#0a0f1e` | Background geral |
+Superfície        | `#0d1b2e` | Navbar, cards |
+Acento            | `#4db8ff` | Botões, destaques, bordas ativas |
+Texto secundário  | `#7aafd4` | Subtítulos, labels |
+/* ========================================================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #f0f4f8;
+  font-family: Arial, sans-serif;
+  color: #1a1a1a;
+}
+
+button {
+  cursor: pointer;
+  padding: 6px 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+input, select {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px 12px;
+  border-bottom: 1px solid #ddd;
+  font-size: 13px;
+}
+
+th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}

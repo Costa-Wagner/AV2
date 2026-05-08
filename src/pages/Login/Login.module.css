@@ -1,0 +1,43 @@
+/* =========================== Login.module.css ============================ */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #0d1b2e;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 32px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.logo {
+  width: 120px;
+  margin: 0 auto;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.campo label {
+  font-size: 12px;
+  font-weight: bold;
+  color: #444;
+}
+
+.erro {
+  color: #cc0000;
+  font-size: 13px;
+  text-align: center;
+}

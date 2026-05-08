@@ -1,0 +1,209 @@
+/* ====================== AeronaveDetalhe.module.css ======================= */
+
+.pagina {
+  padding: 24px 48px;
+  min-height: calc(100vh - 57px);
+  background-color: #f0f4f8;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.btnVoltar {
+  background: none;
+  border: 1px solid #d0dce8;
+  color: #0d1b2e;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.btnVoltar:hover {
+  background-color: #d0dce8;
+}
+
+.titulo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0d1b2e;
+}
+
+.subtitulo {
+  font-size: 13px;
+  color: #7aafd4;
+}
+
+.info {
+  background-color: #ffffff;
+  border: 1px solid #d0dce8;
+  border-radius: 6px;
+  padding: 16px 24px;
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.infoItem {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.infoLabel {
+  font-size: 11px;
+  color: #7aafd4;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.infoValor {
+  font-size: 14px;
+  color: #0d1b2e;
+}
+
+.abas {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 16px;
+  border-bottom: 2px solid #d0dce8;
+}
+
+.aba {
+  background: none;
+  border: none;
+  padding: 8px 20px;
+  font-size: 14px;
+  color: #7aafd4;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+}
+
+.aba:hover {
+  color: #0d1b2e;
+}
+
+.abaAtiva {
+  color: #1a6fd4;
+  border-bottom: 2px solid #1a6fd4;
+  font-weight: bold;
+}
+
+.conteudo {
+  background-color: #ffffff;
+  border: 1px solid #d0dce8;
+  border-radius: 6px;
+  padding: 24px;
+}
+
+.abaHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.abaHeader h3 {
+  font-size: 16px;
+  color: #0d1b2e;
+}
+
+.btnAdicionar {
+  background-color: #1a6fd4;
+  color: #ffffff;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.btnAdicionar:hover {
+  background-color: #4db8ff;
+}
+
+.tabela {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabela th {
+  background-color: #f0f4f8;
+  color: #7aafd4;
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #d0dce8;
+}
+
+.tabela td {
+  padding: 10px 12px;
+  font-size: 13px;
+  color: #0d1b2e;
+  border-bottom: 1px solid #d0dce8;
+}
+
+.tabela tr:last-child td {
+  border-bottom: none;
+}
+
+.badge {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.badgeAPROVADO { background-color: #d1fae5; color: #065f46; }
+.badgeREPROVADO { background-color: #fee2e2; color: #991b1b; }
+.badgePRONTA { background-color: #d1fae5; color: #065f46; }
+.badgeEM_PRODUCAO { background-color: #fef3c7; color: #92400e; }
+.badgeEM_TRANSPORTE { background-color: #dbeafe; color: #1a6fd4; }
+.badgePENDENTE { background-color: #fef3c7; color: #92400e; }
+.badgeANDAMENTO { background-color: #dbeafe; color: #1a6fd4; }
+.badgeCONCLUIDA { background-color: #d1fae5; color: #065f46; }
+
+.relatorio {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.relatorioSecao {
+  border-bottom: 1px solid #d0dce8;
+  padding-bottom: 16px;
+}
+
+.relatorioSecao h4 {
+  font-size: 13px;
+  color: #7aafd4;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.relatorioLinha {
+  display: flex;
+  gap: 8px;
+  font-size: 14px;
+  color: #0d1b2e;
+  margin-bottom: 4px;
+}
+
+.relatorioLabel {
+  font-weight: bold;
+  min-width: 120px;
+}
+
+.vazio {
+  color: #7aafd4;
+  font-size: 14px;
+  text-align: center;
+  padding: 24px 0;
+}
