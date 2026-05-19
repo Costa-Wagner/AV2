@@ -1,0 +1,97 @@
+/* ====================== AeronaveForm.module.css ======================= */
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.modal {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 32px;
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.titulo {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0d1b2e;
+  margin-bottom: 8px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.campo label {
+  font-size: 13px;
+  color: #7aafd4;
+  font-weight: bold;
+}
+
+.campo input,
+.campo select {
+  padding: 8px 12px;
+  border: 1px solid #d0dce8;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #0d1b2e;
+  background-color: #f0f4f8;
+  outline: none;
+}
+
+.campo input:focus,
+.campo select:focus {
+  border-color: #4db8ff;
+}
+
+.erro {
+  font-size: 13px;
+  color: #e74c3c;
+}
+
+.botoes {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.btnCancelar {
+  background: none;
+  border: 1px solid #d0dce8;
+  color: #0d1b2e;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btnCancelar:hover {
+  background-color: #f0f4f8;
+}
+
+.btnSalvar {
+  background-color: #1a6fd4;
+  border: none;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btnSalvar:hover {
+  background-color: #4db8ff;
+}
